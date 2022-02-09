@@ -1,0 +1,72 @@
+body{
+    width: 1000px;
+    text-align: center;
+}
+.container{
+    width: 800px;
+    margin-left:300px;
+}
+
+textarea{
+    resize: none;
+}
+
+.logo{
+    margin: 0px auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.search-area{
+    margin: 0px auto;
+    background-color:rgb(236, 235, 235) ;
+    padding: 0px auto;
+}
+
+p{
+    margin: 0px auto;
+}
+
+#content { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin: 3px 0 0 0;
+}
+.search{
+    padding-top: 15px;
+   margin-right: 3px;
+   background-color: rgb(14, 240, 221);
+    
+   
+}
+
+.info-google{
+   
+    margin-right: 3px;
+    
+    background-color:rgb(8, 211, 194);
+    
+}
+    
+
+.subscribe{
+   padding-top: 15px;
+    
+    background-color: rgb(5, 179, 164);
+  
+}
+
+.copyright{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
