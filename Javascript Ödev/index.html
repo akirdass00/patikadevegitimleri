@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+        body{
+            background-color: #008080;
+            width: 1000px;
+        }
+
+        #userName{
+            font-size: 1,5rem;
+            color: rgb(199, 86, 10);
+            font-family: 'Source Code Pro', monospace;
+
+        }
+        .container{
+            background-color: black;
+            padding: 30px;
+            margin-top: 100px;
+            width: 600px;
+            margin-left: auto;
+            justify-content: center;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            text-align: center;
+        }
+        .baslik{
+            font-family: 'Press Start 2P', cursive;
+            font-size: 3rem;
+            color: white;
+        }
+        .welcome {
+            font-family: 'Source Code Pro', monospace;
+            color: white;
+        }
+        
+        #time{
+            border: 2px solid white;
+            padding: 20px;
+            font-family: 'Press Start 2P', cursive;
+            font-size:3rem;
+            color: white;
+            margin-top:30px;
+        }
+
+        .days{
+            
+            padding: 20px;
+            font-family: 'Press Start 2P', cursive;
+            font-size:3rem;
+            color: white;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body onload="startTime()">
+    <div class="container">
+        <h2 class="baslik"> Kodluyoruz </h2>
+        <p class="welcome">Merhaba, <strong><span id="userName"></span></strong>  Hoşgeldin!</p>
+        <p class="welcome">patika.dev için yaptığım ilk Javascript ödevini görmektesin</p>
+        <div id="time" class="clock"> </div>
+        <div id="days" class="days"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
