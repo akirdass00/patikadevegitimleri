@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+.form{
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    flex-direction: column;
+    
+}
+
+.form-head{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
+
+.input-area{
+    width: 80%;
+    margin-left:10%;
+    padding: 5px;
+    border:1px solid gray;
+    
+}
+
+.input-text{
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.input-area i {
+    margin-top: 15px;
+    margin-left: 7px;
+    cursor: pointer;
+    color: #EA4335;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.input-area i.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.list{
+    width: 80%;
+    margin-left:10%;
+    margin-top: .5rem;;
+    padding: 2px;
+    
+}
+
+.list li{
+    height: 40px;
+    font-family: 'roboto',sans-serif;  
+    font-size: 1rem;
+    font-weight: 400;
+    list-style-type: none;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 5px;   
+    padding: 10px; 
+}
+
+.list li i{
+    cursor: pointer;
+    float: right;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
